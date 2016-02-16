@@ -1,0 +1,1 @@
+This is a program to count words in this file. It is written in java. java is a very good programming language. java has many features.

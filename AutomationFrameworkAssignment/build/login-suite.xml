@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LoginSuite" verbose="1">
+    <test name="LoginTest">
+        <parameter name="sheetName" value="login"></parameter>
+        <classes>
+            <class name="com.test.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>

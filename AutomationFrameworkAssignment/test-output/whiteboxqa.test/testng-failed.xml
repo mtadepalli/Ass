@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [whiteboxqa.test]">
+  <parameter name="sheetName" value="login"/>
+  <test name="functest">
+    <parameter name="sheetName" value="login"/>
+    <classes>
+      <class name="com.test.HomePageTest"/>
+    </classes>
+  </test> <!-- functest -->
+</suite> <!-- Failed suite [whiteboxqa.test] -->

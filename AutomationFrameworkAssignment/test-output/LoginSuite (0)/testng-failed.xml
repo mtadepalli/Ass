@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoginSuite (0)]">
+  <parameter name="sheetName" value="login"/>
+  <test name="LoginTest">
+    <parameter name="sheetName" value="login"/>
+    <classes>
+      <class name="com.test.LoginPageTest"/>
+    </classes>
+  </test> <!-- LoginTest -->
+</suite> <!-- Failed suite [LoginSuite (0)] -->

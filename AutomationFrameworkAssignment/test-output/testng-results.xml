@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LoginSuite" duration-ms="6023" started-at="2016-03-11T19:06:15Z" finished-at="2016-03-11T19:06:21Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="6023" started-at="2016-03-11T19:06:15Z" finished-at="2016-03-11T19:06:21Z">
+      <class name="com.test.LoginPageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.test.LoginPageTest@357246de]" name="beforeSuite" is-config="true" duration-ms="4880" started-at="2016-03-11T11:06:10Z" finished-at="2016-03-11T11:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:com.test.LoginPageTest@357246de]" name="init" is-config="true" duration-ms="612" started-at="2016-03-11T11:06:15Z" finished-at="2016-03-11T11:06:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, boolean)[pri:1, instance:com.test.LoginPageTest@357246de]" name="testLogin" duration-ms="1502" started-at="2016-03-11T11:06:16Z" data-provider="users-data" finished-at="2016-03-11T11:06:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["1234"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, boolean)[pri:1, instance:com.test.LoginPageTest@357246de]" name="testLogin" duration-ms="855" started-at="2016-03-11T11:06:17Z" data-provider="users-data" finished-at="2016-03-11T11:06:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["1234"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, boolean)[pri:1, instance:com.test.LoginPageTest@357246de]" name="testLogin" duration-ms="794" started-at="2016-03-11T11:06:18Z" data-provider="users-data" finished-at="2016-03-11T11:06:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["1234"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, boolean)[pri:1, instance:com.test.LoginPageTest@357246de]" name="testLogin" duration-ms="1140" started-at="2016-03-11T11:06:19Z" data-provider="users-data" finished-at="2016-03-11T11:06:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mtadepalli]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[training123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testPerformLogout()[pri:0, instance:com.test.LoginPageTest@357246de]" name="testPerformLogout" duration-ms="714" started-at="2016-03-11T11:06:20Z" depends-on-methods="com.test.LoginPageTest.testLogin" finished-at="2016-03-11T11:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPerformLogout -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.test.LoginPageTest@357246de]" name="afterSuite" is-config="true" duration-ms="243" started-at="2016-03-11T11:06:21Z" finished-at="2016-03-11T11:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.test.LoginPageTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- LoginSuite -->
+  <suite name="UIAutomation" duration-ms="0" started-at="2016-03-11T19:06:21Z" finished-at="2016-03-11T19:06:21Z">
+    <groups>
+    </groups>
+  </suite> <!-- UIAutomation -->
+  <suite name="HomeSuite" duration-ms="3267" started-at="2016-03-11T19:06:06Z" finished-at="2016-03-11T19:06:10Z">
+    <groups>
+    </groups>
+    <test name="Smoke" duration-ms="3267" started-at="2016-03-11T19:06:06Z" finished-at="2016-03-11T19:06:10Z">
+      <class name="com.test.HomePageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.test.HomePageTest@61443d8f]" name="beforeSuite" is-config="true" duration-ms="5652" started-at="2016-03-11T11:06:01Z" finished-at="2016-03-11T11:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.HomePageTest@61443d8f]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-03-11T11:06:06Z" finished-at="2016-03-11T11:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testClickExploreLink()[pri:1, instance:com.test.HomePageTest@61443d8f]" name="testClickExploreLink" duration-ms="2510" started-at="2016-03-11T11:06:06Z" finished-at="2016-03-11T11:06:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickExploreLink -->
+        <test-method status="PASS" signature="testGetLinkCount()[pri:1, instance:com.test.HomePageTest@61443d8f]" name="testGetLinkCount" duration-ms="747" started-at="2016-03-11T11:06:09Z" finished-at="2016-03-11T11:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLinkCount -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.test.HomePageTest@61443d8f]" name="afterSuite" is-config="true" duration-ms="302" started-at="2016-03-11T11:06:10Z" finished-at="2016-03-11T11:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.test.HomePageTest -->
+    </test> <!-- Smoke -->
+  </suite> <!-- HomeSuite -->
+</testng-results>

@@ -1,0 +1,11 @@
+{
+  "header.links":".header-nav-link",
+  "header.links.explore": "ul.header-nav li:nth-child(1) a",
+  "header.signin.link" : "div.header-actions>a:last-child",
+  "login.username": "#login_field",
+  "login.password": "#password",
+  "login.signin.button" : "div.auth-form-body .btn.btn-primary.btn-block",
+  "login.dropdown.menu" : "ul#user-links li:nth-child(3) a",
+  "login.signout.link" : ".dropdown-item.dropdown-signout",
+  "login.invalid.login" : "div.container>button.flash-close"
+}
